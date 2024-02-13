@@ -77,7 +77,13 @@ To test the model, use the **inference.py** file where you can set the parameter
 python inference.py --help
 ```
 
+Using example:
+```bash
+python inference.py D:\airbus-ship-detection\sample_submission_v2.csv D:\airbus-ship-detection\test_v2\ model.h5
+```
 
+## Model
+There is also an experimental model called **model.h5** that can be used for testing
 
 
 
