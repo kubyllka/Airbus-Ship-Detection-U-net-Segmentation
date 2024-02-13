@@ -15,7 +15,9 @@
 * Hyperparameter tuning
 
 ## Overview
-The project was created to recognize ships in images (semantic segmentation). The dataset from the kaggle website was used for implementation. A slightly simplified U-net model was chosen as a model. Due to the lack of time and resources, training was conducted only on a part of the data, taking into account the balance of classes in the data. Augmentation and early stopping are used. Dice loss is used as a loss function. Adam optimizer was also used. Best perfomance: batch_size = 8, 20 epochs (but has early stopping), learning_rate=0.001, num_images_train_val  = 1000, percentage_img_with_ships = 0.7, percentage_val_split = 0.2
+The project was created to recognize ships in images (semantic segmentation). The dataset from the kaggle website was used for implementation. A slightly simplified U-net model was chosen as a model. Due to the lack of time and resources, training was conducted only on a part of the data, taking into account the balance of classes in the data. Augmentation and early stopping are used. Dice loss is used as a loss function. Adam optimizer was also used. 
+
+Best perfomance: batch_size = 8, 20 epochs (but has early stopping), learning_rate=0.001, num_images_train_val  = 1000, percentage_img_with_ships = 0.7, percentage_val_split = 0.2
 
 For faster training or reducing the load on the computer, it is recommended to use GPU or/and reduce the complexity of the model, or/and reduce the amount of data to be trained, or/and reduce batch_size.
 
